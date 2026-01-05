@@ -1,0 +1,44 @@
+body {
+    background: #1e1e1e;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #game {
+    margin: 20px auto;
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(15, 40px);
+    grid-template-rows: repeat(15, 40px);
+    border: 4px solid #000;
+  }
+  
+  .cell {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .wall   { background: #333; }
+  .block  { background: #4db42e; }
+  .empty  { background: #ccc; }
+  
+  .player1 { background: crimson; }
+  .player2 { background: royalblue; }
+  
+  .bomb {
+    background: black;
+    border-radius: 50%;
+  }
+  
+  .fire {
+    background: orange;
+  }
+  
